@@ -5,7 +5,7 @@ gem 'rails', '3.0.10'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3', '1.3.3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -27,5 +27,6 @@ gem 'sqlite3'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 # group :development, :test do
-#   gem 'webrat'
+ gem rspect-rails, '2.6.1'   
+ gem 'webrat', '0.7.1'
 # end
